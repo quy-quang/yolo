@@ -1,0 +1,15 @@
+# download Annaconda
+create -n env
+conda install pip
+pip install pip --upgrade
+pip install django
+pip install opencv-python
+
+# ubuntu
+sudo apt-get install python-pip
+sudo pip install pip --upgrade
+sudo pip install django
+sudo pip install opencv-python
+
+# nodejs, php (WAMP, XAMP)
+# flash, ASP.NET
